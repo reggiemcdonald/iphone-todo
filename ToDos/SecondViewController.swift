@@ -8,13 +8,34 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
-
+class SecondViewController: UIViewController,  UITextFieldDelegate {
+    private var dataStor: DataStor!;
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        dataStor = DataStor.getInstance();
     }
-
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true);
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder();
+        return true;
+    }
+    
+    
+    @IBAction func addButtonPressed(_ sender: UIButton) {
+        let newTodoObj = textField.text;
+        if let todo = newTodoObj {
+            dataStor.addItem(todo: todo);
+            textField.text = "";
+            
+        }
+    }
+    
 
 }
 

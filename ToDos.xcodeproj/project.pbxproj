@@ -15,6 +15,7 @@
 		027EAB9822BD4B7A00A9E3DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027EAB9622BD4B7A00A9E3DB /* LaunchScreen.storyboard */; };
 		027EABA322BD4B7A00A9E3DB /* ToDosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027EABA222BD4B7A00A9E3DB /* ToDosTests.swift */; };
 		027EABAE22BD4B7A00A9E3DB /* ToDosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027EABAD22BD4B7A00A9E3DB /* ToDosUITests.swift */; };
+		027EABBC22BD4CD100A9E3DB /* DataStor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027EABBB22BD4CD100A9E3DB /* DataStor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		027EABA922BD4B7A00A9E3DB /* ToDosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		027EABAD22BD4B7A00A9E3DB /* ToDosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDosUITests.swift; sourceTree = "<group>"; };
 		027EABAF22BD4B7A00A9E3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		027EABBB22BD4CD100A9E3DB /* DataStor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				027EAB9422BD4B7A00A9E3DB /* Assets.xcassets */,
 				027EAB9622BD4B7A00A9E3DB /* LaunchScreen.storyboard */,
 				027EAB9922BD4B7A00A9E3DB /* Info.plist */,
+				027EABBB22BD4CD100A9E3DB /* DataStor.swift */,
 			);
 			path = ToDos;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				027EAB9022BD4B7A00A9E3DB /* SecondViewController.swift in Sources */,
 				027EAB8C22BD4B7A00A9E3DB /* AppDelegate.swift in Sources */,
 				027EAB8E22BD4B7A00A9E3DB /* FirstViewController.swift in Sources */,
+				027EABBC22BD4CD100A9E3DB /* DataStor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
